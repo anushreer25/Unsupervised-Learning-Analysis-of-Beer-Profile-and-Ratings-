@@ -2,9 +2,7 @@
 
 Clustering beers by taste profile to see which flavor characteristics go with better reviews, using K-Means and hierarchical clustering (HAC).
 
-Final project for STAT 437, completed with Sasha Matveev, Elise Henkel, Srikar Poladi, and Anushree Raol.
 
-<!-- Add a hero image here, e.g. the K-Means t-SNE plot: ![K-Means clusters on a t-SNE projection](figures/kmeans_tsne.png) -->
 
 ## Overview
 
@@ -92,20 +90,14 @@ The two methods use different numbers of clusters and give different views of th
 
 ## Repository structure
 
-<!-- Update to match your repo. -->
 
 ```
-.
 ├── README.md
 ├── beer_profile_and_ratings.csv
-├── analysis.ipynb
-├── figures/
-└── STAT_437_Final_Project_Presentation.pdf
+├── beer_analysis.ipynb
 ```
 
 ## Tech
-
-<!-- Confirm against your notebook. -->
 
 Python, pandas, scikit-learn (K-Means, agglomerative clustering, t-SNE, silhouette and adjusted Rand scores), SciPy (dendrograms), seaborn and matplotlib.
 
@@ -114,7 +106,3 @@ Python, pandas, scikit-learn (K-Means, agglomerative clustering, t-SNE, silhouet
 1. "Using Data Science to Brew Beer." School of Data Science, www.datascience.virginia.edu/pages/using-data-science-brew-beer. Accessed 16 Dec. 2024.
 2. Oleg, Pochepskiy. "Expert Perspectives: Analyzing the 22 Major Beer Trends." Cleverence, 17 June 2024, www.cleverence.com/articles/business-blogs/expert-perspectives-analyzing-the-22-major-beer-trends/. Accessed 16 Dec. 2024.
 3. Habschied, K., Krstanović, V., & Mastanjević, K. "Beer Quality Evaluation—A Sensory Aspect." Beverages, 2022, 8(1), 15. https://doi.org/10.3390/beverages8010015
-
-## Authors
-
-Sasha Matveev, Elise Henkel, Srikar Poladi, Anushree Raol
